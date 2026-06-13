@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>9b720931-ed01-4a05-b825-f52f8892e3ae</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.16" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.16" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.16" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.16" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ProfileProject.Domain\ProfileProject.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

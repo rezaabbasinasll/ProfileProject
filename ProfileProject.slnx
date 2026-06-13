@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ProfileProject.Api/ProfileProject.Api.csproj" Id="25827658-5b88-43ec-a010-a02949e460ce" />
+  <Project Path="ProfileProject.Application/ProfileProject.Application.csproj" Id="88114c82-9855-4732-b08f-710c66d26115" />
+  <Project Path="ProfileProject.DataAccess/ProfileProject.DataAccess.csproj" />
+  <Project Path="ProfileProject.Domain/ProfileProject.Domain.csproj" />
+</Solution>
