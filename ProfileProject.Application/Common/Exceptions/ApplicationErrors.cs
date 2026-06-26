@@ -9,4 +9,4 @@ public static class ApplicationErrors
     public static ErrorModel ProfileNotFound => new ErrorModel("پروفایل یافت نشد.", "Application_1001");
 
     public static ErrorModel SkillNotFound => new ErrorModel("مهارت مورد نظر یافت نشد.", "Application_1002");
-}
+}    
